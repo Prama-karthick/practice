@@ -43,6 +43,7 @@ def encrypt_file(key, filename, chunk_size=64*1024):
  
 # Encrypt file:
 encrypt_file('abcdefghji123', 'sample-file.txt')
+print("To check second commit")
  
 # Decrypt file:
 decrypt_file('abcdefghji123', 'sample-file.txt.encrypted')
